@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+i.fas.fa-edit {
+    margin-right: 10px;
+}
+
+table td.text-right {
+    padding: 12px 0;
+}
+
+span.badge.badge-primary.d-none.d-sm-inline {margin-left: 5px;}
+
+h3.mb-3.mb-md-5.title.col-md-12.col-sm-12.col-sx-12.text-center.text-uppercase {
+    font-family: 'Poppins', sans-serif;
+}
+
+.control button.btn.btn-primary,.control button.btn.btn-danger {
+    width: 100%;
+}
+
+.control button.btn.btn-primary.col {margin-bottom: 16px;}
+
+
+@media screen and (max-width: 768px) {
+    .form-input .dropdown-menu.mr-sm-1.show {
+        left: -40px !important;
+    }
+    select.form-control option{
+       font-size: 0.6rem;
+    }
+
+    td {
+        padding: 12px 2px 12px 0 !important;
+        font-size: 0.9em;
+    }
+  }

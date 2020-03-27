@@ -1,0 +1,121 @@
+<div class="container">
+      <div class="row">
+        <!-- Title -->
+        <h3 class="mb-3 mb-md-5 title col-md-12 col-sm-12 col-sx-12 text-center text-uppercase font-weight-bold" >
+          vocabulary List
+        </h3><!-- End Title -->
+
+        <!-- Control -->
+        <div class="col-md-12 control">
+         
+          <div class="row">
+            <!-- Search -->
+            <div class="col-md col-sm-12 input-group mb-3 search">
+              <input type="text" class="form-control" placeholder="Search for...">
+              <div class="input-group-append">
+                <span class="btn btn-primary" id="basic-addon2">Clear</span>
+              </div>
+            </div><!-- End Search -->
+
+            <!-- Sort -->
+            <div class="dropdown col-md col-sm-6 col-6">
+              <a class="btn btn-success dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Sort by 
+              </a>
+              <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                <a class="dropdown-item" href="#">Name - A-Z</a>
+                <a class="dropdown-item" href="#">Name - Z-A</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#">Created date - A-Z</a>
+                <a class="dropdown-item" href="#">Created date - Z-A</a>
+              </div>
+              <span class="badge badge-primary d-none d-sm-inline">Name - A-Z</span>
+            </div><!-- End Sort -->
+            <div class="container col-md col-sm-6 col-6">
+              <button class="btn btn-primary " type="button">Add</button>
+            </div>
+            
+            
+          </div><!-- End row -->
+          
+          
+        </div> <!-- End Control -->
+
+        <!-- Form input -->
+        <div class="col-12 form-input">
+          <form>
+            <div class="form-row mt-3">
+              <!-- New word -->
+              <div class="input-group col-md-4 col-sm-12 mt-1">
+                <input type="text" class="form-control" placeholder="New word">
+                <div class="input-group-append">
+                  <div class="dropdown">
+                    <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                      Type
+                    </button>
+                    <div class="dropdown-menu mr-sm-1" aria-labelledby="dropdownMenuButton">
+                      <a class="dropdown-item" href="#">(n)</a>
+                      <a class="dropdown-item" href="#">(v)</a>
+                      <a class="dropdown-item" href="#">(adj)</a>
+                      <a class="dropdown-item" href="#">(adv)</a>
+                      <a class="dropdown-item" href="#">(#)</a>
+                    </div>
+                  </div>
+                </div>
+              </div><!-- End New word -->
+              <!-- Synonym -->
+              <div class="col-md-2 col-sm-3 mt-1">
+                <input type="text" class="form-control" placeholder="Synonym">
+              </div><!-- End Synonym -->
+
+              <!-- Annonym -->
+              <div class="col-md-2 col-sm-3 mt-1">
+                <input type="text" class="form-control" placeholder="Annonym">
+              </div><!-- End Annonym -->
+
+              <!-- Mean -->
+              <div class="col-md-4 col-sm-6 mt-1">
+                <input type="text" class="form-control" placeholder="Mean">
+              </div><!-- End mean -->
+
+            </div>
+          </form>
+        </div><!-- End Form input -->
+
+        <!-- Table list -->
+        <div class="col-12 table-list mt-3 mt-md-5">
+          <div class="card">
+            <div class="card-header bg-info text-white font-weight-bold">
+              Word list
+            </div>
+            <div class="card-body">
+              <div class="table-responsive-sm">
+                <table class="table table-hover">
+                  <thead>
+                    <tr>
+                      <th class="d-none d-sm-table-cell" style="width: 5%" >#</th>
+                      <th style="width: 20%">Word</th>
+                      <th class="d-none d-sm-table-cell" style="width: 20%">Synonym</th>
+                      <th class="d-none d-sm-table-cell" style="width: 20%">Annoym</th>
+                      <th class="text-center" style="width: 45%">Mean</th>
+                      <th style="width: 10%">option</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <th class="d-none d-sm-table-cell">1</th>
+                      <td>Mark</td>
+                      <td class="d-none d-sm-table-cell">Atto</td>
+                      <td class="d-none d-sm-table-cell">@mdo</td>
+                      <td>@mdo</td>
+                      <td class="text-right"><i style="cursor: pointer;" class="fas fa-edit"></i>  <i style="cursor: pointer;" class="far fa-trash-alt"></i></td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+          </div>
+        </div><!-- End Table -->
+
+      </div>
+    </div>
